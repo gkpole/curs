@@ -3,7 +3,6 @@
 from aiogram import Bot, Dispatcher, executor, types
 from aiogram.types.message import ContentType
 from aiogram.types.inline_keyboard import InlineKeyboardMarkup, InlineKeyboardButton
-import numberize
 from threading import Thread
 import sys
 from datetime import datetime
