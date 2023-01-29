@@ -1,5 +1,3 @@
-# Token
-from Token import botToken, botUsername
 
 # Public libraries
 from aiogram import Bot, Dispatcher, executor, types
@@ -29,6 +27,9 @@ import StopDDoS
 bot = Bot(token=botToken)
 dp = Dispatcher(bot)
 IsStartedCount = False
+
+botToken = "5963665229:AAGAwdVf61gOMipqHvGH_1Ia03KAUH5sWzQ"
+botUsername = "Conventortgbot"
 
 numberizerUA = numberize.Numberizer(lang='uk')
 numberizerRU = numberize.Numberizer(lang='ru')
